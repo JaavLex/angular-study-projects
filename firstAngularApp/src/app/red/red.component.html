@@ -1,0 +1,6 @@
+<div class="wrapper">
+  Red component <i (click)="onClickButton()">Add task</i>
+  <p *ngFor="let item of elements">
+    <app-task [compId]="item.id" (deleteId)="onDeleteButton($event)"></app-task>
+  </p>
+</div>

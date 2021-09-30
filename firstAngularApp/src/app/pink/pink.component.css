@@ -1,0 +1,9 @@
+div {
+  border-style: solid;
+  border-width: 1px;
+  border-color: pink;
+  color: pink;
+  width: 200px;
+  padding: 25px;
+  margin: 10px;
+}
